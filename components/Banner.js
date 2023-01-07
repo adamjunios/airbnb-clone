@@ -9,6 +9,7 @@ function Banner() {
           src="https://links.papareact.com/0fm"
           layout="fill"
           objectFit="cover"
+          alt="banner"
         />
         <div className="absolute top-1/2 w-full text-center">
           <p className="text-sm sm:text-lg font-semibold">
@@ -16,7 +17,7 @@ function Banner() {
           </p>
           <button className="text-purple-500 bg-white px-10 py-4 rounded-full shadow-md cursor-pointer font-bold my-3 hover:shadow-lg active:scale-90 transition duration-150">
             {" "}
-            I'm flexible
+            I&apos;m flexible
           </button>
         </div>
       </div>

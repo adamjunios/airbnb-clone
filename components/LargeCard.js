@@ -11,6 +11,7 @@ function LargeCard({ img, title, description, buttonText }) {
             layout="fill"
             className="rounded-2xl"
             objectFit="cover"
+            alt={title}
           />
         </div>
         <div className="absolute top-32 left-12">
